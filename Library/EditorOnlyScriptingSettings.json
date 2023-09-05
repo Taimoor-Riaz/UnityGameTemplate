@@ -1,0 +1,1 @@
+{"m_DefineSymbols":{"m_Value":{"Android":"CROSS_PLATFORM_INPUT;CF_FORCE_MOBILE_MODE","Standalone":"CROSS_PLATFORM_INPUT","Windows Store Apps":"CF_FORCE_MOBILE_MODE","iPhone":"CROSS_PLATFORM_INPUT;CF_FORCE_MOBILE_MODE"},"m_Initialized":true},"m_AllowUnsafeCode":{"m_Value":false,"m_Initialized":false},"m_ScriptDebugInfoEnabled":{"m_Value":false,"m_Initialized":true}}

@@ -1,0 +1,145 @@
+Converting script [1 / 17]	[\SampleScenes\Scripts\ParticleSceneControls.cs]
+	Fragments : 7
+		[ 0] : Line:  107	InputMethod   GetMouseButtonDown  	(0)
+		[ 1] : Line:  108	InputMethod   GetMouseButton      	(0)
+		[ 2] : Line:  112	InputProperty mousePosition       
+		[ 3] : Line:  171	InputMethod   GetKeyDown          	(KeyCode.LeftArrow)
+		[ 4] : Line:  174	InputMethod   GetKeyDown          	(KeyCode.RightArrow)
+		[ 5] : Line:  183	InputProperty mousePosition       
+		[ 6] : Line:  184	InputProperty mousePosition       
+
+Converting script [2 / 17]	[\SampleScenes\Scripts\PlaceTargetWithMouse.cs]
+	Fragments : 2
+		[ 0] : Line:   15	InputMethod   GetMouseButtonDown  	(0)
+		[ 1] : Line:   19	InputProperty mousePosition       
+
+Converting script [3 / 17]	[\Standard Assets\Utility\DragRigidbody.cs]
+	Fragments : 5
+		[ 0] : Line:   22	InputMethod   GetMouseButtonDown  	(0)
+		[ 1] : Line:   32	InputProperty mousePosition       
+		[ 2] : Line:   33	InputProperty mousePosition       
+		[ 3] : Line:   71	InputMethod   GetMouseButton      	(0)
+		[ 4] : Line:   73	InputProperty mousePosition       
+
+Converting script [4 / 17]	[\Standard Assets\Utility\ForcedReset.cs]
+	Fragments : 1
+		[ 0] : Line:   14	InputMethod   GetButtonDown       	("ResetObject")
+
+Converting script [5 / 17]	[\Standard Assets\Utility\SimpleMouseRotator.cs]
+	Fragments : 4
+		[ 0] : Line:   48	InputMethod   GetAxis             	("Mouse X")
+		[ 1] : Line:   49	InputMethod   GetAxis             	("Mouse Y")
+		[ 2] : Line:   98	InputProperty mousePosition       
+		[ 3] : Line:   99	InputProperty mousePosition       
+
+Converting script [6 / 17]	[\SampleScenes\Menu\Scripts\PauseMenu.cs]
+	Fragments : 2
+		[ 0] : Line:   55	InputMethod   GetKeyUp            	(KeyCode.Escape)
+		[ 1] : Line:   58	Other mod.	[Cursor.visible]
+
+Converting script [7 / 17]	[\Standard Assets\2D\Scripts\Platformer2DUserControl.cs]
+	Fragments : 3
+		[ 0] : Line:   25	InputMethod   GetButtonDown       	("Jump")
+		[ 1] : Line:   33	InputMethod   GetKey              	(KeyCode.LeftControl)
+		[ 2] : Line:   34	InputMethod   GetAxis             	("Horizontal")
+
+Converting script [8 / 17]	[\Standard Assets\Cameras\Scripts\FreeLookCam.cs]
+	Fragments : 9
+		[ 0] : Line:   35	Other mod.	[Cursor.lockState]
+		[ 1] : Line:   36	Other mod.	[Cursor.visible]
+		[ 2] : Line:   47	InputMethod   GetMouseButtonUp    	(0)
+		[ 3] : Line:   49	Other mod.	[Cursor.lockState]
+		[ 4] : Line:   50	Other mod.	[Cursor.visible]
+		[ 5] : Line:   57	Other mod.	[Cursor.lockState]
+		[ 6] : Line:   58	Other mod.	[Cursor.visible]
+		[ 7] : Line:   76	InputMethod   GetAxis             	("Mouse X")
+		[ 8] : Line:   77	InputMethod   GetAxis             	("Mouse Y")
+
+Converting script [9 / 17]	[\Standard Assets\ParticleSystems\Scripts\Hose.cs]
+	Fragments : 2
+		[ 0] : Line:   21	InputMethod   GetMouseButton      	(0)
+		[ 1] : Line:   23	InputMethod   GetKeyDown          	(KeyCode.Alpha1)
+
+Converting script [10 / 17]	[\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs]
+	Fragments : 4
+		[ 0] : Line:   69	InputMethod   GetButtonDown       	("Jump")
+		[ 1] : Line:  208	InputMethod   GetAxis             	("Horizontal")
+		[ 2] : Line:  209	InputMethod   GetAxis             	("Vertical")
+		[ 3] : Line:  216	InputMethod   GetKey              	(KeyCode.LeftShift)
+
+Converting script [11 / 17]	[\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs]
+	Fragments : 10
+		[ 0] : Line:   33	InputMethod   GetAxis             	("Mouse X")
+		[ 1] : Line:   34	InputMethod   GetAxis             	("Mouse Y")
+		[ 2] : Line:   63	Other mod.	[Cursor.lockState]
+		[ 3] : Line:   64	Other mod.	[Cursor.visible]
+		[ 4] : Line:   77	InputMethod   GetKeyUp            	(KeyCode.Escape)
+		[ 5] : Line:   81	InputMethod   GetMouseButtonUp    	(0)
+		[ 6] : Line:   88	Other mod.	[Cursor.lockState]
+		[ 7] : Line:   89	Other mod.	[Cursor.visible]
+		[ 8] : Line:   93	Other mod.	[Cursor.lockState]
+		[ 9] : Line:   94	Other mod.	[Cursor.visible]
+
+Converting script [12 / 17]	[\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs]
+	Fragments : 4
+		[ 0] : Line:   47	InputMethod   GetKey              	(RunKey)
+		[ 1] : Line:  133	InputMethod   GetButtonDown       	("Jump")
+		[ 2] : Line:  217	InputMethod   GetAxis             	("Horizontal")
+		[ 3] : Line:  218	InputMethod   GetAxis             	("Vertical")
+
+Converting script [13 / 17]	[\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs]
+	Fragments : 3
+		[ 0] : Line:   43	InputMethod   GetAxis             	("Horizontal")
+		[ 1] : Line:   44	InputMethod   GetAxis             	("Vertical")
+		[ 2] : Line:   45	InputMethod   GetButton           	("Jump")
+
+Converting script [14 / 17]	[\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs]
+	Fragments : 5
+		[ 0] : Line:   40	InputMethod   GetButtonDown       	("Jump")
+		[ 1] : Line:   49	InputMethod   GetAxis             	("Horizontal")
+		[ 2] : Line:   50	InputMethod   GetAxis             	("Vertical")
+		[ 3] : Line:   51	InputMethod   GetKey              	(KeyCode.C)
+		[ 4] : Line:   67	InputMethod   GetKey              	(KeyCode.LeftShift)
+
+Converting script [15 / 17]	[\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl2Axis.cs]
+	Fragments : 3
+		[ 0] : Line:   28	InputMethod   GetAxis             	("Horizontal")
+		[ 1] : Line:   29	InputMethod   GetAxis             	("Vertical")
+		[ 2] : Line:   30	InputMethod   GetButton           	("Fire1")
+
+Converting script [16 / 17]	[\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl4Axis.cs]
+	Fragments : 5
+		[ 0] : Line:   31	InputMethod   GetAxis             	("Mouse X")
+		[ 1] : Line:   32	InputMethod   GetAxis             	("Mouse Y")
+		[ 2] : Line:   33	InputMethod   GetButton           	("Fire1")
+		[ 3] : Line:   34	InputMethod   GetAxis             	("Horizontal")
+		[ 4] : Line:   35	InputMethod   GetAxis             	("Vertical")
+
+Converting script [17 / 17]	[\Standard Assets\Vehicles\Car\Scripts\CarUserControl.cs]
+	Fragments : 3
+		[ 0] : Line:   23	InputMethod   GetAxis             	("Horizontal")
+		[ 1] : Line:   24	InputMethod   GetAxis             	("Vertical")
+		[ 2] : Line:   26	InputMethod   GetAxis             	("Jump")
+
+
+17 scripts modified!
+Overwriting actual scripts...
+	[0 / 17] from  [D:/Unity Projects/Complete project/CF2-Data/Script-Backups/2023-09-05-19-07\Assets-After/\SampleScenes\Scripts\ParticleSceneControls.cs] to [D:/Unity Projects/Complete project/Assets/\SampleScenes\Scripts\ParticleSceneControls.cs]
+	[1 / 17] from  [D:/Unity Projects/Complete project/CF2-Data/Script-Backups/2023-09-05-19-07\Assets-After/\SampleScenes\Scripts\PlaceTargetWithMouse.cs] to [D:/Unity Projects/Complete project/Assets/\SampleScenes\Scripts\PlaceTargetWithMouse.cs]
+	[2 / 17] from  [D:/Unity Projects/Complete project/CF2-Data/Script-Backups/2023-09-05-19-07\Assets-After/\Standard Assets\Utility\DragRigidbody.cs] to [D:/Unity Projects/Complete project/Assets/\Standard Assets\Utility\DragRigidbody.cs]
+	[3 / 17] from  [D:/Unity Projects/Complete project/CF2-Data/Script-Backups/2023-09-05-19-07\Assets-After/\Standard Assets\Utility\ForcedReset.cs] to [D:/Unity Projects/Complete project/Assets/\Standard Assets\Utility\ForcedReset.cs]
+	[4 / 17] from  [D:/Unity Projects/Complete project/CF2-Data/Script-Backups/2023-09-05-19-07\Assets-After/\Standard Assets\Utility\SimpleMouseRotator.cs] to [D:/Unity Projects/Complete project/Assets/\Standard Assets\Utility\SimpleMouseRotator.cs]
+	[5 / 17] from  [D:/Unity Projects/Complete project/CF2-Data/Script-Backups/2023-09-05-19-07\Assets-After/\SampleScenes\Menu\Scripts\PauseMenu.cs] to [D:/Unity Projects/Complete project/Assets/\SampleScenes\Menu\Scripts\PauseMenu.cs]
+	[6 / 17] from  [D:/Unity Projects/Complete project/CF2-Data/Script-Backups/2023-09-05-19-07\Assets-After/\Standard Assets\2D\Scripts\Platformer2DUserControl.cs] to [D:/Unity Projects/Complete project/Assets/\Standard Assets\2D\Scripts\Platformer2DUserControl.cs]
+	[7 / 17] from  [D:/Unity Projects/Complete project/CF2-Data/Script-Backups/2023-09-05-19-07\Assets-After/\Standard Assets\Cameras\Scripts\FreeLookCam.cs] to [D:/Unity Projects/Complete project/Assets/\Standard Assets\Cameras\Scripts\FreeLookCam.cs]
+	[8 / 17] from  [D:/Unity Projects/Complete project/CF2-Data/Script-Backups/2023-09-05-19-07\Assets-After/\Standard Assets\ParticleSystems\Scripts\Hose.cs] to [D:/Unity Projects/Complete project/Assets/\Standard Assets\ParticleSystems\Scripts\Hose.cs]
+	[9 / 17] from  [D:/Unity Projects/Complete project/CF2-Data/Script-Backups/2023-09-05-19-07\Assets-After/\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs] to [D:/Unity Projects/Complete project/Assets/\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs]
+	[10 / 17] from  [D:/Unity Projects/Complete project/CF2-Data/Script-Backups/2023-09-05-19-07\Assets-After/\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs] to [D:/Unity Projects/Complete project/Assets/\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs]
+	[11 / 17] from  [D:/Unity Projects/Complete project/CF2-Data/Script-Backups/2023-09-05-19-07\Assets-After/\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs] to [D:/Unity Projects/Complete project/Assets/\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs]
+	[12 / 17] from  [D:/Unity Projects/Complete project/CF2-Data/Script-Backups/2023-09-05-19-07\Assets-After/\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs] to [D:/Unity Projects/Complete project/Assets/\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs]
+	[13 / 17] from  [D:/Unity Projects/Complete project/CF2-Data/Script-Backups/2023-09-05-19-07\Assets-After/\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs] to [D:/Unity Projects/Complete project/Assets/\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs]
+	[14 / 17] from  [D:/Unity Projects/Complete project/CF2-Data/Script-Backups/2023-09-05-19-07\Assets-After/\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl2Axis.cs] to [D:/Unity Projects/Complete project/Assets/\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl2Axis.cs]
+	[15 / 17] from  [D:/Unity Projects/Complete project/CF2-Data/Script-Backups/2023-09-05-19-07\Assets-After/\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl4Axis.cs] to [D:/Unity Projects/Complete project/Assets/\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl4Axis.cs]
+	[16 / 17] from  [D:/Unity Projects/Complete project/CF2-Data/Script-Backups/2023-09-05-19-07\Assets-After/\Standard Assets\Vehicles\Car\Scripts\CarUserControl.cs] to [D:/Unity Projects/Complete project/Assets/\Standard Assets\Vehicles\Car\Scripts\CarUserControl.cs]
+
+Overwriting COMPLETED!
