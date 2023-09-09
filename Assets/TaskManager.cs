@@ -6,11 +6,33 @@ public class TaskManager : MonoBehaviour
 {
     public Transform playerPosition;
     public GameObject player;
-
+    public GameObject Cutscene;
+    public bool isCutscene;
+    public float cutscenetime;
     private void Start()
     {
-        player.transform.position = playerPosition.position;
-       // player.transform.SetPositionAndRotation(playerPosition.position, playerPosition.rotation);
+        if (isCutscene)
+        {
+            StartCoroutine(StartCutscene());
+        }
+        else
+        {
+
+            player.transform.position = playerPosition.position;
+            GUIManager.instance.ShowGui();
+        }
+
     }
+
+    IEnumerator StartCutscene()
+    {
+        Cutscene.SetActive(true);
+        yield return new WaitForSeconds(cutscenetime);
+        Cutscene.SetActive(false);
+        player.transform.position = playerPosition.position;
+        GUIManager.instance.ShowGui();
+    }
+
+
 
 }

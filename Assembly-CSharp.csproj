@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2970679D-FCA9-4E51-CB5A-41B9B1324B55}</ProjectGuid>
+    <ProjectGuid>{4ACEF0FF-4D76-425E-BD66-A1978552E692}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,12 +63,14 @@
     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
     <Compile Include="Assets\LevelManager.cs" />
     <Compile Include="Assets\LevelSelection.cs" />
+    <Compile Include="Assets\GUIManager.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
     <Compile Include="Assets\MenuManager.cs" />
     <Compile Include="Assets\Loading.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\test.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
+    <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\TaskManager.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
@@ -771,7 +773,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{A38959BA-4D70-3898-B3B0-5C43B0DA2D66}</Project>
+      <Project>{ED70115E-126A-C749-1C32-26B8C6E9E6A1}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
