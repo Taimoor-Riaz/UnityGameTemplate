@@ -59,19 +59,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
-    <Compile Include="Assets\unlock.cs" />
+    <Compile Include="Assets\Scripts\MenuManager.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
-    <Compile Include="Assets\LevelManager.cs" />
-    <Compile Include="Assets\LevelSelection.cs" />
-    <Compile Include="Assets\GUIManager.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
-    <Compile Include="Assets\MenuManager.cs" />
-    <Compile Include="Assets\Loading.cs" />
+    <Compile Include="Assets\Scripts\LevelManager.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
-    <Compile Include="Assets\test.cs" />
+    <Compile Include="Assets\Scripts\test.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\LevelSelection.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
-    <Compile Include="Assets\GameManager.cs" />
-    <Compile Include="Assets\TaskManager.cs" />
+    <Compile Include="Assets\Scripts\TaskManager.cs" />
+    <Compile Include="Assets\Scripts\CheckPointManager.cs" />
+    <Compile Include="Assets\Scripts\unlock.cs" />
+    <Compile Include="Assets\Scripts\GUIManager.cs" />
+    <Compile Include="Assets\Scripts\Loading.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
