@@ -4,11 +4,18 @@ using UnityEngine;
 
 public class TaskManager : MonoBehaviour
 {
+    public static TaskManager instance;
     public Transform playerPosition;
     public GameObject player;
     public GameObject Cutscene;
     public bool isCutscene;
     public float cutscenetime;
+    public Animator playerAnimator;
+
+    private void Awake()
+    {
+        instance = this;
+    }
     private void Start()
     {
         if (isCutscene)
