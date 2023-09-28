@@ -83,10 +83,17 @@ public class CheckPointManager : MonoBehaviour
                 StartCoroutine(WaitTime());
                 break;
             case Checkpoint.ObjectiveDone:
+                LevelComplete();
                 break;
         }
     }
 
+    public void LevelComplete()
+    {
+        TaskManager.instance.UseTimer = false;
+        GameManager.instance.Success();
+
+    }
     IEnumerator SimpleTask()
     {
         if(PositionToCheckPoint)

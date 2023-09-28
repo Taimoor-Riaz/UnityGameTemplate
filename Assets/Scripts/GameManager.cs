@@ -44,5 +44,25 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
 
     }
+    public void Fail()
+    {
+        GUIManager.instance.levelFail.SetActive(true);
+        GUIManager.instance.ShowGui();
+        Time.timeScale = 0;
 
+    }
+
+    public void Success()
+    {
+        GUIManager.instance.levelSuccessPopup.SetActive(true);
+        GUIManager.instance.ShowGui();
+        Time.timeScale = 0;
+
+    }
+
+    public void NextLevel()
+    {
+        PlayerPrefs.SetInt("unlock_Level", PlayerPrefs.GetInt("unlock_Level") + 1);
+        SceneManager.LoadScene("LevelSelection");
+    }
 }

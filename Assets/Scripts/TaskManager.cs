@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,6 +13,13 @@ public class TaskManager : MonoBehaviour
     public float cutscenetime;
     public Animator playerAnimator;
 
+
+
+
+    public bool UseTimer;
+    public float LevelTime;
+    public int seconds;
+    public int minute;
     private void Awake()
     {
         instance = this;
@@ -31,6 +39,36 @@ public class TaskManager : MonoBehaviour
         }
 
     }
+
+
+    private void Update()
+    {
+        if(UseTimer)
+        {
+            LevelTime -= Time.deltaTime;
+            seconds = (int)LevelTime % 60;
+            minute = (int)LevelTime / 60;
+           if(seconds>=10)
+            {
+               
+                GUIManager.instance.TimerText.text = " 0" + minute + " : " + seconds;
+            }
+            else
+            {
+                GUIManager.instance.TimerText.text = " 0" + minute + " : 0" + seconds;
+            }
+
+            if(LevelTime<=0)
+            {
+                UseTimer = false;
+                GameManager.instance.Fail();
+
+            }
+
+        }
+        
+    }
+
 
     IEnumerator StartCutscene()
     {

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GUIManager : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class GUIManager : MonoBehaviour
     public GameObject levelstartPopup;
     public GameObject levelSuccessPopup;
     public GameObject pausePopup;
+    public GameObject levelFail;
+
+    public Text TimerText;
 
     private void Awake()
     {
